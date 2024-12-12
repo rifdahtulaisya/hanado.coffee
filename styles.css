@@ -1,4 +1,20 @@
+    @media (max-width: 768px) {
+        .about-description {
+            font-size: 0.9rem; /* Ukuran teks lebih kecil untuk mobile */
+            line-height: 1.4; /* Menyesuaikan tinggi baris agar tetap nyaman dibaca */
+        }
+    }
+    body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Cegah scroll horizontal */
+}
 
+
+.navbar {
+    width: 100%; /* Pastikan navbar tidak melebihi viewport */
+    box-sizing: border-box; /* Pastikan padding termasuk dalam lebar elemen */
+}
         #circle {
           width: 400px;
           height: 400px;
