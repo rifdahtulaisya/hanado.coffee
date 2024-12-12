@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanado</title>
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+</head> 
+      <body>
+        <header >
+          <nav class="navbar navbar-expand-lg" style="background-color: #f6ebda; background-image: url('./assets/images/bg-hero.png');     background-size: 450px;
+          padding-bottom: 70px;
+          background-repeat: no-repeat;
+          background-position: right;">
+            <div class="container py-2">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.png" 
+                alt="Hanado" 
+                style="height: 48px"
+                />
+              </a>
+              <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#ourproduct" style="color:#ff902a">Our Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#delivery">Delivery</a>
+                  </li>  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#special">Special</a>
+                  </li>
+                </ul>
+                <form class="d-flex align-items-center position-relative" role="search">
+                  <input 
+                    class="form-control me-2 rounded-pill ps-5" 
+                    type="search" 
+                    placeholder="Cappuccino" 
+                    aria-label="Cappuccino">
+                  <i class="ai-search fs-3 position-absolute start-0 ps-2"></i>
+                  <i class="ai-cart fs-1  ps-2"></i>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+          <nav style="background-color: #f6ebda;">
+            <div class="container"  style="padding-bottom: 120px;">
+              <div class="row align-items-center">
+                <div class="col">
+                  <div style="width: 500px;">
+                    <h1 style="font-weight: bold;">Enjoy your <span style="color:#ff902a">coffee</span>
+                      before your activity
+                    </h1>
+                  <p style="color:#7e7d7a">Boost your productivity and biuld your mood with a glass of coffee in the morning</p>
+                </div>
+                <dv>
+                  <button type="button" class="btn btn-primary me-5 px-5 py-2" style="background: #2f2105; border-color: #2f2105; border-radius: 50px;">
+                    <i class="ai-search fs-3 position-absolute end-0 ps-2"></i> 
+    
+                    <span class="me-2">Order Now</span>
+                     <span style="padding: 1px 7px 4px;
+                    background: #ff902a;
+                    border-radius: 50%;">
+                      <img src="./assets/icons/white-cart.svg" alt="">
+                    </span>
+                  </button>
+                  <a href="#" style="color:#ff902a;font-weight: 500;" class="btn">
+                    More Menu
+                  </a>
+                </dv>
+                </div>
+                <div class="col-md-5  text-center">
+                  <div style="background-image: url('./assets/Icons/transparent-coffe.svg');
+                      background-size: 400px;
+                      width: 400px;
+                      background-color: #2f2105;
+                      border-radius: 50%;
+                      background-repeat: no-repeat;
+                      background-position: center;">
+                    <img src="./assets/images/coffe-glass.png" class="bottom-image" style="padding-bottom: 45px;" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <section>
+          <div style="background-color: #e9cb9f; padding-bottom: 120px;" class="pt-5" id="ourproduct">
+            <div class="container">
+            <h2 class="pb-4">Popular <span style="border-bottom:4px solid #ff902a;">Now</span></h2>
+            <div class="row">        
+                <div class="col-md-4">
+                  <div class="card-menu" style="border: 5px solid #f6ebda75; border-radius: 20px;">
+                    <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                      <img src="./assets/images/product-1.png" class="card-img-top" style="border-radius: 15px;" alt="...">
+                      <div>
+                        <img src="./assets/icons/gold-star.svg">
+                        <span>4.8</span>
+                      </div>
+                      <div class="clearfix">
+                        <div class="float-start">
+                          <h4 class="card-text py-2">Vanilla Latte</h4>
+                          <div class="clearfix">
+                            <button type="button" class="btn btn-outline-warning float-left">Hot</button>
+                            <button type="button" class="btn btn-outline-warning float-left">Cold</button>
+                          </div>
+                        </div>
+                        <div class="float-end">
+                          <h4 class="card-text py-2">12 K</h4>
+                          <span style="padding: 7px 10px 12px;
+                            background: #ff902a;
+                            border-radius: 50%;">
+                              <img src="./assets/icons/white-cart.svg" style="width: 20px;" alt="">
+                            </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-md-4">
+                  <div class="card-menu" style="border: 5px solid #f6ebda75; border-radius: 20px;">
+                    <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                      <img src="./assets/images/product-2.png" class="card-img-top" style="border-radius: 15px;" alt="...">
+                      <div>
+                        <img src="./assets/icons/gold-star.svg">
+                        <span>4.8</span>
+                        </div>
+                        <div class="clearfix">
+                          <div class="float-start">
+                            <h4 class="card-text py-2">Espresso </h4>
+                            <div class="clearfix">
+                              <button type="button" class="btn btn-outline-warning float-left">Hot</button>
+                              <button type="button" class="btn btn-outline-warning float-left">Cold</button>
+                            </div>
+                          </div>
+                          <div class="float-end">
+                            <h4 class="card-text py-2">12 K</h4>
+                            <span style="padding: 7px 10px 12px;
+                              background: #ff902a;
+                              border-radius: 50%;">
+                                <img src="./assets/icons/white-cart.svg" style="width: 20px;" alt="">
+                              </span>
+                          </div>
+                        </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card-menu" style="border: 5px solid #f6ebda75; border-radius: 20px;">
+                    <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                      <img src="./assets/images/product-3.png" class="card-img-top" style="border-radius: 15px;" alt="...">
+                      <div>
+                      <img src="./assets/icons/gold-star.svg">
+                      <span>4.8</span>
+                      </div>
+                      <div class="clearfix">
+                        <div class="float-start">
+                          <h4 class="card-text py-2">Hazelnut Latte</h4>
+                          <div class="clearfix">
+                            <button type="button" class="btn btn-outline-warning float-left">Hot</button>
+                            <button type="button" class="btn btn-outline-warning float-left">Cold</button>
+                          </div>
+                        </div>
+                        <div class="float-end">
+                          <h4 class="card-text py-2">12 K</h4>
+                          <span style="padding: 7px 10px 12px;
+                            background: #ff902a;
+                            border-radius: 50%;">
+                              <img src="./assets/icons/white-cart.svg" style="width: 20px;" alt="">
+                            </span>
+                        </div>
+                      </div>
+    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>    
+          </div>
+        </section>
+
+        <section id="delivery">
+          <div>
+            <div class="container pt-5">
+            <h3>How to use delivery <span style="border-bottom:4px solid #ff902a;">service</span></h3>   
+              <div class="row text-center">
+                <div class="col-md-4">
+                  <div class="card-service">
+                    <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                      <img src="./assets/images/service-1.png" class="card-img-top" style="border-radius: 15px; width: 150px; height: 150px;" alt="...">
+                      <div>
+                        <h4>choose your coffee</h4>
+                        <p>there are 20+ coffee</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card-service">
+                    <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                      <img src="./assets/images/service-2.png" class="card-img-top" style="border-radius: 15px; width: 150px; height: 150px;" alt="...">
+                      <div>
+                        <h4>we delivery it to you</h4>
+                        <p>Choose delivery service</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card-service">
+                    <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                      <img src="./assets/images/service-3.png" class="card-img-top" style="border-radius: 15px; width: 150px; height: 150px;" alt="...">
+                      <div>
+                        <h4>Enjoy your coffee</h4>
+                        <p>Choose delivery service</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>    
+          </div>
+        </section>
+
+  <section id="about">
+    <div style="background-color: white; width: 100%; height: 100px;">
+    </div>
+    <div class="main-about" style="background-image: url(./assets/images/bg-aboutus.png);
+    background-repeat: no-repeat;
+    background-size: cover;">
+      <div class="about-left">
+        <img src="./assets/images/highlight-product.png" alt="highlight-product" style="box-shadow: -2px 3px 10px 2px rgba(128, 128, 128, 0.205);">
+      </div>
+      <div class="about-right">
+        <h3>About <span class="underbord">us</span></h3>
+        <h4>We provide quality coffee, <br> and read to deliver.</h4>
+        <h5 class="text-menu">We are that company that makes and distributes<br>delicious drink. our main product is made with a <br> secret recipe and availablein stores worldwide.</h5>
+        <br><small><a href="#">Get your coffee</a></small>
+      </div>
+    </div>
+  </section>
+
+  <section id="special">
+    <div style="padding-bottom: 120px;" class="pt-5">
+      <div class="container">
+        <h2 class="pb-4">Special menu <span class="underbord">for you</span></h2>
+        <div class="row" style="padding-bottom: 50px; padding-top: 30px;">   
+          <!-- ITEM 1 -->
+          <div class="col-md-4 mb-5">
+            <div class="card-menu" style="border-radius: 20px;">
+              <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                <div class="label-container">
+                  <div class="label-style">
+                    <span>4.8</span>
+                    <img src="./assets/icons/gold-star.svg" class="label-img" />
+                  </div>
+                </div>
+                <img src="./assets/images/product-4.png" class="card-img-top" style="border-radius: 15px;" alt="hanado">
+                <div class="clearfix">
+                  <div class="float-start">
+                    <h4 class="card-text py-2">Sandwich</h4>
+                    <div class="clearfix">
+                      <p class="text-menu">bread with meat and vegetables</p>
+                    </div>
+                  </div>
+                  <div class="float-end">
+                    <h4 class="card-text py-2">12 K</h4>
+                    <span style="padding: 7px 10px 12px; background: #ff902a; border-radius: 50%;">
+                      <img src="./assets/icons/white-cart.svg" style="width: 20px;" alt="hanado">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 2 -->
+          <div class="col-md-4 mb-5">
+            <div class="card-menu" style="border-radius: 20px;">
+              <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                <div class="label-container">
+                  <div class="label-style">
+                    <span>4.8</span>
+                    <img src="./assets/icons/gold-star.svg" class="label-img" />
+                  </div>
+                </div>
+                <img src="./assets/images/product-5.png" class="card-img-top" style="border-radius: 15px;" alt="hanado">
+                <div class="clearfix">
+                  <div class="float-start">
+                    <h4 class="card-text py-2">Hot Milk</h4>
+                    <div class="clearfix">
+                      <p class="text-menu">Hot Milk with less sugar</p>
+                    </div>
+                  </div>
+                  <div class="float-end">
+                    <h4 class="card-text py-2">12 K</h4>
+                    <span style="padding: 7px 10px 12px; background: #ff902a; border-radius: 50%;">
+                      <img src="./assets/icons/white-cart.svg" style="width: 20px;" alt="hanado">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 3 -->
+          <div class="col-md-4 mb-5">
+            <div class="card-menu" style="border-radius: 20px;">
+              <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                <div class="label-container">
+                  <div class="label-style">
+                    <span>4.8</span>
+                    <img src="./assets/icons/gold-star.svg" class="label-img" />
+                  </div>
+                </div>
+                <img src="./assets/images/product-6.png" class="card-img-top" style="border-radius: 15px;" alt="hanado">
+                <div class="clearfix">
+                  <div class="float-start">
+                    <h4 class="card-text py-2">Coffe Ice Cream</h4>
+                    <div class="clearfix">
+                      <p class="text-menu">Coffe with ice cream vanilla</p>
+                    </div>
+                  </div>
+                  <div class="float-end">
+                    <h4 class="card-text py-2">12 K</h4>
+                    <span style="padding: 7px 10px 12px; background: #ff902a; border-radius: 50%;">
+                      <img src="./assets/icons/white-cart.svg" style="width: 20px;" alt="hanado">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 4 -->
+          <div class="col-md-4 mb-5">
+            <div class="card-menu" style="border-radius: 20px;">
+              <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                <div class="label-container">
+                  <div class="label-style">
+                    <span>4.8</span>
+                    <img src="./assets/icons/gold-star.svg" class="label-img" />
+                  </div>
+                </div>
+                <img src="./assets/images/product-7.png" class="card-img-top" style="border-radius: 15px;" alt="hanado">
+                <div class="clearfix">
+                  <div class="float-start">
+                    <h4 class="card-text py-2">Cappucino</h4>
+                    <div class="clearfix">
+                      <p class="text-menu">Hot Cappucino</p>
+                    </div>
+                  </div>
+                  <div class="float-end">
+                    <h4 class="card-text py-2">12 K</h4>
+                    <span style="padding: 7px 10px 12px; background: #ff902a; border-radius: 50%;">
+                      <img src="./assets/icons/white-cart.svg" style="width: 20px;" alt="hanado">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 5 -->
+          <div class="col-md-4 mb-5">
+            <div class="card-menu" style="border-radius: 20px;">
+              <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                <div class="label-container">
+                  <div class="label-style">
+                    <span>4.8</span>
+                    <img src="./assets/icons/gold-star.svg" class="label-img" />
+                  </div>
+                </div>
+                <img src="./assets/images/product-8.png" class="card-img-top" style="border-radius: 15px;" alt="hanado">
+                <div class="clearfix">
+                  <div class="float-start">
+                    <h4 class="card-text py-2">Moccacinno</h4>
+                    <div class="clearfix">
+                      <p class="text-menu">Hot Moccacinno</p>
+                    </div>
+                  </div>
+                  <div class="float-end">
+                    <h4 class="card-text py-2">12 K</h4>
+                    <span style="padding: 7px 10px 12px; background: #ff902a; border-radius: 50%;">
+                      <img src="./assets/icons/white-cart.svg" style="width: 20px;" alt="hanado">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 6 -->
+          <div class="col-md-4 mb-5">
+            <div class="card-menu" style="border-radius: 20px;">
+              <div class="card-body px-3 py-4 pb-5" style="border-radius: 15px;">
+                <div class="label-container">
+                  <div class="label-style">
+                    <span>4.8</span>
+                    <img src="./assets/icons/gold-star.svg" class="label-img" />
+                  </div>
+                </div>
+                <img src="./assets/images/product-9.png" class="card-img-top" style="border-radius: 15px;" alt="hanado">
+                <div class="clearfix">
+                  <div class="float-start">
+                    <h4 class="card-text py-2">Waffle Ice Cream</h4>
+                    <div class="clearfix">
+                      <p class="text-menu">Wafle with Ice cream</p>
+                    </div>
+                  </div>
+                  <div class="float-end">
+                    <h4 class="card-text py-2">12 K</h4>
+                    <span style="padding: 7px 10px 12px; background: #ff902a; border-radius: 50%;">
+                      <img src="./assets/icons/white-cart.svg" style="width: 20px;" alt="hanado">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>    
+    </div>
+  </section>
+  <section id="about">
+    <div style="background-color: white; width: 100%; height: 50px;">
+    </div>
+    <div class="main-about container pb-5 pt-5">
+        <div class="about-right">
+            <h2 class="text-title">What they say about us</h2>
+            <p class="text-menu fs-20">We always provide the best service<br>and always maintain the quality of<br>coffee</p>
+        </div>
+        <div class="about-left row">
+            <div class="col-md-4">
+                <img src="./assets/images/testimonial-1.png" class="width-100">
+                <div class="description-team">
+                    <h5 class="mb-0">Naura</h5>
+                    <p class="mb-0">I really love the cappucino, the coffee was very smooth</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="./assets/images/testimonial-2.png" class="width-100">
+                <div class="description-team">
+                    <h5 class="mb-0">John</h5>
+                    <p class="mb-0">this  coffee shop is very convenient</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="./assets/images/testimonial-3.png" class="width-100">
+                <div class="description-team">
+                    <h5 class="mb-0">Azura</h5>
+                    <p class="mb-0">the coffee menu here is very much</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section>
+    <div class="about-all">
+      <div class="about-letter card-img-top">
+        <h2>Subscribe to Get 50% Discount!</h2>
+        <div class="about-form">
+          <input type="email" placeholder="Enter your email address" aria-label="Email address" required>
+          <button type="submit">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
+</body>
+</html>
+
